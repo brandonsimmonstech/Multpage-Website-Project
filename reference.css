@@ -38,10 +38,7 @@
     font-size: 30px;
     
   }
-  ol{
-    
-    
-  }
+  
   .pic{
     display:flex;
     justify-content: space-around;
@@ -53,6 +50,10 @@
   ul{
     font-size: 30px;
     list-style-type: none
+  }
+  ol{
+    font-size: 30px;
+    
   }
   #center{
     display:flex;
