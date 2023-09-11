@@ -77,14 +77,21 @@
     padding-left: 20px;
     padding-right: 20px;
   }
-  aside .start{
+  table{
+    font-size: 30px;
     
-    p
-  
-   
   }
- aside .end{
- 
-  
-  
- }
+  td{
+    padding: 30px;
+    text-align: center;
+  }
+
+  table, th, td {
+    border:1px solid black;
+  }
+
+  #secret{
+    float: right;
+    color:rgb(240, 235, 230);
+    
+  }

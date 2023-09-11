@@ -1,0 +1,76 @@
+
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Submit a Question</title>
+        <script src="validation.js"></script>
+    </head>
+    <link href = "reference.css" rel="stylesheet">
+    
+    <nav>
+        <div><h1>Georgia</h1></div>
+        <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="cities.html">Cities</a></li>
+            <li><a href="Atlanta.html">Atlanta</a></li>
+            <li><a href="Columbus.html">Columbus</a></li>
+            <li><a href="Augusta.html">Augusta</a></li>
+            <li><a href="Submit.html">Submit</a></li>
+        </ul>
+      </nav>
+    <header>
+        <center><h1>Submit a Question.</h1></center>
+    </header>
+    <section>
+<form name="submit" onsubmit="validate()">
+            <label for="firstName">First Name:</label>
+            <input type="text"  placeholder="George"
+            required>
+
+            <br>
+
+            <label for="lastName">Last Name:</label>
+            <input type="text"  placeholder="Georgian"
+            required />
+
+            <br>
+
+            <label for="emailAddress">Email Address:</label>
+            <input id = "emailAddress" type="text"  placeholder="something@something.com"
+            required />
+
+            <br>
+
+            <label for="confirmEmail">Confirm Email Address:</label>
+            <input type="text" id = "confirmEmail"  placeholder="something@something.com"
+            required/>
+
+            <br>
+
+            <textarea id="Question Area" rows="5" cols="50" placeholder="Submit any question you have."></textarea>
+            <br>
+
+            <input type="submit" />
+        </form>
+
+    </section>
+
+
+
+<aside>
+    
+    <body class="start">
+        <h1><a href= "References.html">References</a></h1>
+    </body>
+    
+    <body>
+        <h1>Submit A Question</h1>
+    </body>
+    
+    <body class="end">
+        <h1><a href="Submit.html">Submit<img src="abstract-user-flat-1.svg" alt="Person Icon" width="32px"></a></h1>
+    </body>      
+
+</aside>   
+</html>
