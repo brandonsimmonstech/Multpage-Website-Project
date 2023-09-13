@@ -15,6 +15,7 @@
     padding-left: 30px;
     border: 1px solid;
     border-radius: 4px;
+    position:relative;
 
   }
   h1{
@@ -84,14 +85,24 @@
   td{
     padding: 30px;
     text-align: center;
+    
   }
 
   table, th, td {
     border:1px solid black;
+    
   }
 
   #secret{
     float: right;
-    color:rgb(240, 235, 230);
+    color:rgb(235, 211, 211);
+    
+    
+    
+  }
+  form{
+    Position: absolute;
+    top: 200px;
+    
     
   }
